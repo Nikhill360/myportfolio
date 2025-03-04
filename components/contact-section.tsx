@@ -71,7 +71,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-muted-foreground">Location</h4>
-                    <p className="font-medium">Mumbai, India</p>
+                    <p className="font-medium">Haryana , India</p>
                   </div>
                 </CardContent>
               </Card>
@@ -104,7 +104,7 @@ export function ContactSection() {
           </div>
           
           <div>
-            <Card>
+            {/* <Card>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-6">Send Me a Message</h3>
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -147,7 +147,7 @@ export function ContactSection() {
                   </Button>
                 </form>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </div>
       </div>
