@@ -37,7 +37,7 @@ export function FlowerAnimation({ className }: FlowerAnimationProps) {
       flower.style.top = `${Math.random() * 100}%`;
       flower.style.opacity = '0';
       flower.style.transform = 'scale(0)';
-      flower.style.transition = 'all 5s ease-out';
+      flower.style.transition = 'opacity 1s ease-out, transform 1s ease-out'; // Fixed transition
       
       // Create petals
       for (let i = 0; i < 5; i++) {
@@ -69,8 +69,8 @@ export function FlowerAnimation({ className }: FlowerAnimationProps) {
           if (container.contains(flower)) {
             container.removeChild(flower);
           }
-        }, 5000);
-      }, 10000);
+        }, 1000); // Fixed timing for removal
+      }, 3000); // Fixed timing for flower disappearance
     };
     
     // Create flowers periodically

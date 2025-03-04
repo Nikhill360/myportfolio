@@ -47,7 +47,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-muted-foreground">Email</h4>
-                    <p className="font-medium">riyakohar7856@gamil.com</p>
+                    <p className="font-medium">riyakohar7856@gmail.com</p>
                   </div>
                 </CardContent>
               </Card>
@@ -94,7 +94,7 @@ export function ContactSection() {
                   <Linkedin className="h-5 w-5 text-pink-500" />
                 </a>
                 <a 
-                  href="mailto:riyakohar7856@gamil.com"
+                  href="mailto:riyakohar7856@gmail.com"
                   className="bg-pink-100 dark:bg-pink-900/20 p-3 rounded-full hover:bg-pink-200 dark:hover:bg-pink-800/30 transition-colors"
                 >
                   <Mail className="h-5 w-5 text-pink-500" />
