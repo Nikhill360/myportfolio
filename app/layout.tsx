@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Riya Kohar | Portfolio',
   description: 'Personal portfolio of Riya Kohar',
+  icons: {
+    icon: '/icons/favicon.ico', 
+  },
 };
 
 export default function RootLayout({
@@ -18,6 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link  href="/favicon.ico" /> 
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"

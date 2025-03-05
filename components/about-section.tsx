@@ -46,7 +46,7 @@ export function AboutSection() {
             <div className="relative">
               <div className="aspect-square rounded-lg overflow-hidden bg-gradient-to-br from-pink-300 to-purple-400 dark:from-pink-600 dark:to-purple-700">
                 <img 
-                  src="/images/1.jpg" 
+                  src="https://res.cloudinary.com/dzw5ltwsq/image/upload/v1741148090/1_vmqj24.jpg" 
                   alt="Riya Kohar" 
                   className="w-full h-full object-cover opacity-90"
                 />

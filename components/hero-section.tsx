@@ -62,8 +62,8 @@ export function HeroSection() {
             <div className="flex justify-center">
               <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/20">
                 <img
-                  src="/images/1.jpg"
-                  alt="Riya Kohar"
+                  src="https://res.cloudinary.com/dzw5ltwsq/image/upload/v1741148090/1_vmqj24.jpg"
+                  alt="Riya "
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -83,19 +83,19 @@ export function HeroSection() {
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          <Link href="https://www.instagram.com/riya_kohar25" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.instagram.com/riya_kohar25?igsh=MWRycWw3bWE0MzJqcw==" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="lg" className="gap-2 hover:bg-pink-100 dark:hover:bg-pink-900/20">
               <Instagram className="h-5 w-5" />
               <span>Instagram</span>
             </Button>
           </Link>
-          <Link href="https://www.linkedin.com/in/riya-kohar-b754172b7" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.linkedin.com/in/riya-kohar-b754172b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="lg" className="gap-2 hover:bg-blue-100 dark:hover:bg-blue-900/20">
               <Linkedin className="h-5 w-5" />
               <span>LinkedIn</span>
             </Button>
           </Link>
-          <Link href="mailto:riyakohar7856@gmail.com">
+          <Link href="mailto:riyakohar7856@gamil.com">
             <Button variant="outline" size="lg" className="gap-2 hover:bg-green-100 dark:hover:bg-green-900/20">
               <Mail className="h-5 w-5" />
               <span>Email</span>
